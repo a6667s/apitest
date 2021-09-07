@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pyc
+env/
+venv/
+.idea
+db.sqlite3
+media/
+migrations/*
+!migrations/__init__.py
+.env
+**/migrations/**
+!**/migrations/__init__.py
+README.md
